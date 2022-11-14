@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { getCodeById } from "../utils";
 
 import Highlight from "react-highlight";
-import "highlight.js/styles/default.css";
+// import "highlight.js/styles/default.css";
 import TextArea from "./TextArea";
 
 const codeblockURL = `${process.env.REACT_APP_API_URL}/api/codeblocks/codelist`;
@@ -32,7 +32,8 @@ function Socket() {
 
   return (
     <div>
-      <Highlight className="javascript">{codeblock.Code}</Highlight>
+      {codeblock.Code}
+      {/* <Highlight className="javascript">{codeblock.Code}</Highlight> */}
       <TextArea></TextArea>
     </div>
   );
