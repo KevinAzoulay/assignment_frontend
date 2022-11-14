@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link, Outlet, useNavigate } from "react-router-dom";
-import { socketManager } from "../SocketManager";
 import { getAll } from "../utils";
 import { Modal, Button } from "react-bootstrap";
 import ListGroup from "react-bootstrap/ListGroup";
