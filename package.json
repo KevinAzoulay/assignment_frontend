@@ -28,7 +28,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "heroku-postbuild": "npm i react-highlight --force && react-scripts build",
+    "heroku-postbuild": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
