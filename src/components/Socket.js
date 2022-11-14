@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { getCodeById } from "../utils";
 
-import Highlight from "react-highlight";
+// import Highlight from "react-highlight";
 // import "highlight.js/styles/default.css";
 import TextArea from "./TextArea";
 
