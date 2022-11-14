@@ -27,7 +27,6 @@
     "yup": "^0.32.11"
   },
   "scripts": {
-    "preinstall": "npm i react-highlight --force",
     "start": "react-scripts start",
     "build-dev": "react-scripts build",
     "test": "react-scripts test",
