@@ -57,7 +57,7 @@ function Home() {
     return (
       <div className="codeblock" onClick={() => handleClick(codeblock._id)}>
         <ListGroup>
-          <ListGroup.Item as="li" active>
+          <ListGroup.Item>
             <h3 key={codeblock._id}>{codeblock.Title}</h3>
           </ListGroup.Item>
         </ListGroup>

@@ -29,6 +29,7 @@
   padding-right: 75px;
 }
 
+
 .LoginForm input {
   background-color: #333333;
   border: none;
@@ -63,6 +64,9 @@
 
 .codeblock{
   cursor: pointer;
+  flex-direction: row;
+  flex: auto;
+  margin:auto
 }
 
 .user{
